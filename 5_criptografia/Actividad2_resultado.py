@@ -8,7 +8,7 @@ lis_ord = L.copy() #Aqui creo una copia de la lista L, que es con la que voy a h
 seguir = True #En una variable llamada seguir guardo un True para que acceda al bucle
 
 while seguir: #Hago un bucle while, ya que nose cuantas veces se va a repetir
-    seguir = False
+    seguir = False #Si durante la iteación del bucle for, no se realizan intercambios seguir seguira valiendo False y esto hara que el bucle While termine porque su condición seguir ya no se cumple
 
     for i in range(len(L) - 1): #Recorre con el valor i, la longitud de la lista entera, y se pone el -1, ya que si hay 5 valores tiene que hacer 4 comparaciones
         
